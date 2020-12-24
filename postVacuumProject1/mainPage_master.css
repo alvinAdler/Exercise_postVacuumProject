@@ -1,0 +1,29 @@
+body{
+    background-color: #212120;
+}
+
+/*NAVBAR*/
+.navbar a{
+    text-decoration: none;
+    color: #c7c7c7;
+    transition: 0.5s;
+    margin: 0 2% 0 2%;
+    border: 3px solid transparent;
+}
+
+.navbar a:hover{
+    transition: 0.1s;
+    color: white;
+    border-bottom: 3px solid #3d7dff;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: #3d7dff; 
+} 
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
+  
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(61, 125, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+/*END OF NAVBAR*/
