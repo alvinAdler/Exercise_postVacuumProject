@@ -1,8 +1,13 @@
-body{
+body, html{
     background-color: #212120;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /*NAVBAR*/
+
 .navbar a{
     text-decoration: none;
     color: #c7c7c7;
@@ -11,19 +16,68 @@ body{
     border: 3px solid transparent;
 }
 
-.navbar a:hover{
+.navbar-brand:hover{
     transition: 0.1s;
     color: white;
-    border-bottom: 3px solid #3d7dff;
+    border-bottom: 3px solid #42f542;
 }
 
+.nav-link:hover{
+    transition: 0.1s;
+    color: white;
+    border-bottom: 3px solid #f54242;
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
 .custom-toggler.navbar-toggler { 
     border-color: #3d7dff; 
 } 
-/* Setting the stroke to green using rgb values (0, 128, 0) */ 
-  
+
 .custom-toggler .navbar-toggler-icon { 
     background-image: url( 
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(61, 125, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 } 
+
 /*END OF NAVBAR*/
+
+/*WELCOME BOX*/
+.welcome-box{
+    height: 600px;
+}
+
+.inner-welcome-box{
+    border: 1px solid #c7c7c7;
+    position: relative;
+    padding: 2%;
+    color: #c7c7c7;
+    width: 50%;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1%;
+}
+
+.inner-welcome-box h1, .inner-welcome-box p, .inner-welcome-box button{
+    margin-top: 3%;
+    font-family: sans-serif;
+    outline-color: red;
+}
+
+.inner-welcome-box button{
+    padding: 1% 2% 1% 2%;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #c7c7c7;
+    color:#c7c7c7;
+    transition: 0.3s;
+}
+
+.inner-welcome-box button:hover{
+    transition: 0.3s;
+    padding: 2% 3% 2% 3%;
+    background-color:#29c429;
+    border: none;
+}
+/*END OF WELCOME BOX*/
+
