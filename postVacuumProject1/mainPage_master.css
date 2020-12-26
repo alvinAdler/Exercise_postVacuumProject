@@ -81,3 +81,45 @@ body, html{
 }
 /*END OF WELCOME BOX*/
 
+
+/* CARD */
+
+.card{
+    background: none;
+    border: 3px solid #c7c7c7;
+    color: #c7c7c7;
+    margin-bottom: 15%;
+}
+
+.circle{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 2px solid #c7c7c7;
+}
+
+.button-card{
+    padding: 1% 2% 1% 2%;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #c7c7c7;
+    color:#c7c7c7;
+    transition: 0.3s;
+}
+
+.button-card:hover{
+    transition: 0.3s;
+    padding: 2% 3% 2% 3%;
+}
+
+.card-header{
+    background: none;
+    border-bottom-color: #c7c7c7;
+}
+
+/* END OF CARD*/
