@@ -2,6 +2,7 @@ var welcome_box = $(".inner-welcome-box")
 var cards = $(".card")
 var circles = $(".circle")
 var card_button = $(".card button")
+var footer_links = $(".footer_link")
 
 var card_default_css = {
     "background-color" : "transparent",
@@ -186,3 +187,27 @@ cards.eq(2).mouseout(function(){
 })
 
 //==== DOM: END OF THIRD CARD
+
+//==== DOM: FOOTER LINKS
+
+$(footer_links).eq(0).mouseover(function(){
+    $(this).css("color", "#f54242")
+    $(this).css("transition", "0.2s")
+});
+
+$(footer_links).eq(1).mouseover(function(){
+    $(this).css("color", "#3477eb")
+    $(this).css("transition", "0.2s")
+});
+
+$(footer_links).eq(2).mouseover(function(){
+    $(this).css("color", "#2db32d")
+    $(this).css("transition", "0.2s")
+});
+
+$(footer_links).mouseout(function(){
+    $(this).css("color", "#c7c7c7")
+    $(this).css("transition", "0.2s")
+})
+
+//==== DOM: END OF FOOTER LINKS
